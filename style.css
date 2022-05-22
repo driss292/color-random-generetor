@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #5C47D2;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.color{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 300px;
+    color: #fff;
+}
+
+#hex{
+    display: block;
+    color: #fff;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin: 20px;
+}
+
+.color button{
+    background:none;
+    outline: none;
+    color: inherit;
+    border: 3px solid #fff;
+    font-size: 24px;
+    cursor: pointer;
+}
